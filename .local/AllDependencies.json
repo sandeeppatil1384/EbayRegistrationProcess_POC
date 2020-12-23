@@ -3570,9 +3570,9 @@
     "restore": {
       "projectUniqueName": "Ebay_POC",
       "projectName": "Ebay_POC",
-      "projectPath": "C:\\Users\\admin\\Documents\\UiPath\\Ebay_POC\\.local",
+      "projectPath": "C:\\Users\\admin\\Documents\\UiPath\\EbayRegistrationProcess_POC\\.local",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Documents\\UiPath\\Ebay_POC\\.local"
+      "outputPath": "C:\\Users\\admin\\Documents\\UiPath\\EbayRegistrationProcess_POC\\.local"
     },
     "frameworks": {
       "net461": {

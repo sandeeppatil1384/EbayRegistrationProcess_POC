@@ -60,7 +60,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ra:CreateReport ContinueOnError="{x:Null}" isCreated="{x:Null}" DisplayName="Create Report" sap:VirtualizedContainerService.HintSize="333.6,134.4" sap2010:WorkflowViewState.IdRef="CreateReport_1" ReportLocation="C:\Users\admin\Documents\UiPath\Ebay_POC\Reports" ReportName="Ebay Registration process" />
+    <ra:CreateReport ContinueOnError="{x:Null}" isCreated="{x:Null}" DisplayName="Create Report" sap:VirtualizedContainerService.HintSize="333.6,134.4" sap2010:WorkflowViewState.IdRef="CreateReport_1" ReportLocation="C:\Users\admin\Documents\UiPath\Ebay_POC\Reports" ReportName="Ebay Registration processs" />
     <ra:StartRecording ContinueOnError="{x:Null}" Location="{x:Null}" isStarted="{x:Null}" DisplayName="Start Recording" sap:VirtualizedContainerService.HintSize="333.6,85.6" sap2010:WorkflowViewState.IdRef="StartRecording_1" RecordingName="Ebay Registration process.avi" SaveInCurrentReport="True" />
     <ra:StartSuite ContinueOnError="{x:Null}" suiteList="{x:Null}" DisplayName="Start Suite" sap:VirtualizedContainerService.HintSize="333.6,85.6" sap2010:WorkflowViewState.IdRef="StartSuite_1" SuiteName="Ebay Registration process test suite" />
     <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke TC_01 workflow" sap:VirtualizedContainerService.HintSize="333.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="TC_01.xaml">
