@@ -156,7 +156,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:TypeInto>
-            <ra:StepStatus CodeBlock="{x:Null}" ContinueOnError="{x:Null}" statusInfo="{x:Null}" ActualResult="System is accepting name and cursor is moving to Last name field text box " Description="&lt;b&gt;STEP-3&lt;/b&gt; Click on First Name field text box and enter &#xD;&#xA;first name below 8 character and hit tab  &lt;br&gt; &lt;b&gt; Test Data - &lt;/b&gt; Amit" DisplayName="Step Status" ExpectedResult="System should accept name and cursor should move to Last name field text box " sap:VirtualizedContainerService.HintSize="333.6,134.4" sap2010:WorkflowViewState.IdRef="StepStatus_7" Name="STEP-3" Status="Pass" TakeScreenshot="True">
+            <ra:StepStatus CodeBlock="{x:Null}" ContinueOnError="{x:Null}" statusInfo="{x:Null}" ActualResult="System is accepting name and cursor is moving to Last name field text box " Description="&lt;b&gt;STEP-3&lt;/b&gt; Click on First Name field text box and enter &#xA;first name below 8 character and hit tab  &lt;br&gt; &lt;b&gt; Test Data - &lt;/b&gt; Amit" DisplayName="Step Status" ExpectedResult="System should accept name and cursor should move to Last name field text box " sap:VirtualizedContainerService.HintSize="333.6,134.4" sap2010:WorkflowViewState.IdRef="StepStatus_7" Name="STEP-3" Status="Pass" TakeScreenshot="True">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -213,7 +213,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:SendHotkey>
-            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  Email'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_3" Text="testingggggg@testinggg.in">
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  Email'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_3" Text="testinggggggg@testinggg.in">
               <ui:TypeInto.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e428d755-af25-444e-bc95-aba455e838ca" InformativeScreenshot="d41f09e4c433c66477ab59dbaac02ad2" Selector="&lt;webctrl id='Email' tag='INPUT' /&gt;">
                   <ui:Target.TimeoutMS>
@@ -521,7 +521,7 @@
                 </ui:Target>
               </ui:Click.Target>
             </ui:Click>
-            <ra:StepStatus CodeBlock="{x:Null}" ContinueOnError="{x:Null}" statusInfo="{x:Null}" ActualResult="system is showing Thank You message and is showing registered email first and last letter in message where confirmation email is getting received" Description="&lt;b&gt;STEP - 12 &lt;/b&gt; On mobile registration page select country from dropdown and enter 10 digit valid mobile number which is not registered before and select Confirm &lt;br&gt; &lt;b&gt; Test Data - &lt;/b&gt; e.g. 9819932297" DisplayName="Step Status" ExpectedResult="system should show Thank You message and should show registered email first and last letter in message where confirmation email should get received" sap:VirtualizedContainerService.HintSize="333.6,134.4" sap2010:WorkflowViewState.IdRef="StepStatus_17" Name="STEP 12" Status="Pass" TakeScreenshot="True" />
+            <ra:StepStatus CodeBlock="{x:Null}" ContinueOnError="{x:Null}" statusInfo="{x:Null}" ActualResult="system is showing Thank You message and is showing registered email first and last letter in message where confirmation email is getting received" Description="&lt;b&gt;STEP - 12 &lt;/b&gt; On mobile registration page select country from dropdown and enter 10 digit valid mobile number which is not registered before and select Confirm &lt;br&gt; &lt;b&gt; Test Data - &lt;/b&gt;9819932293" DisplayName="Step Status" ExpectedResult="system should show Thank You message and should show registered email first and last letter in message where confirmation email should get received" sap:VirtualizedContainerService.HintSize="333.6,134.4" sap2010:WorkflowViewState.IdRef="StepStatus_17" Name="STEP 12" Status="Pass" TakeScreenshot="True" />
             <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  continueBtn'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_13" KeyModifiers="None" MouseButton="BTN_LEFT">
               <ui:Click.CursorPosition>
                 <ui:CursorPosition Position="Center">
